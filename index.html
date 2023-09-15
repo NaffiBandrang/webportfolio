@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- BootStrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+</head>
+<body >
+    <!-- Navbar Section Start -->
+    <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand text-danger" href="#navBar">NB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active px-3">
+              <a class="nav-link" href="#landing">About Me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active px-3">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            
+        
+            <li class="nav-item active px-3">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item active px-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Navbar Section End -->
+
+    <!-- Landing Section Start -->
+    <div id="landing" class="d-flex container-fluid text-center">
+        <div class="hero-me row p-5">
+            <div class="col-md-8 col-12">
+                <h5 id="hero-p">Hi, I am</h5>
+                <h1 id="hero-name">Abdul Naffi Bandrang</h1>
+                <h3 id="hero-title">Full Stack Web Developer</h3>
+                <p id="hero-bio">An aspiring Web Developer undergoing training for Frontend, Backend and Full-Stack Web Development. I am currently efficient in using HTML, CSS, and Bootstrap.</p>
+            </div>
+            <div class="hero-image col-md-4 col-12">
+                <img class="img-fluid" src="./images/Satoru_Gojo_29-removebg-preview.png">
+            </div>
+        </div>
+    </div>
+    <!-- Landing Section End -->
+
+    <!-- Project Section Start -->
+    <div id="project" class="text-center d-flex justify-content-center">
+        <div class="project row d-flex justify-content-center d-grid mx-5">
+            <h1 class="project-title text-center my-5">My Projects</h1>
+            <div class="card mb-3 col-12 px-5">
+                <div class="row ">
+                  <div class="col-lg-8  col-12">
+                    <img src="./images/Project 1.png" class="c-img img-fluid py-2" alt="...">
+                  </div>
+                  <div class="col-lg-4 col-12">
+                    <div class="card-body">
+                      <h5 class="card-title">Portfolio</h5>
+                      <p class="card-text">This website is an example of a simple portfolio. This project shows my skills in using HTML and Bootstrap.</p>
+                      <a href="http://127.0.0.1:3000/s15/activity/index.html" target="blank"><button type="button" class="btn btn-danger">Click Here</button></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card mb-3 col-12 px-5">
+                <div class="row ">
+                  <div class="col-lg-8 col-12">
+                    <img src="./images/Project 2.png" class="c-img img-fluid py-2" alt="...">
+                  </div>
+                  <div class="col-lg-4 col-12">
+                    <div class="card-body">
+                      <h5 class="card-title">Tindog</h5>
+                      <p class="card-text">This website is an imitation of Tinder but with a twist, Tinder for dogs. This project showcases my proficiency in using CSS and Bootstrap</p>
+                      <a href="http://127.0.0.1:3002/index.html" target="blank"><button type="button" class="btn btn-danger">Click Here</button></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card mb-3 col-12 px-5 ">
+                <div class="row">
+                  <div class="col-lg-8 col-12">
+                    <img src="./images/Project 3.png" class="c-image img-fluid py-2" alt="...">
+                  </div>
+                  <div class="col-lg-4 col-12">
+                    <div class="card-body">
+                      <h5 class="card-title">Dice Game</h5>
+                      <p class="card-text">A website that simulates a dice game and displays the winner with larger number. This project showcases my proficiency in Javascript.</p>
+                      <a href="http://127.0.0.1:3002/Dicee%20Challenge%20-%20Completed/dicee.html" target="blank"><button type="button" class="btn btn-danger">Click Here</button></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project Section End -->
+
+    <!-- Tools Section Start -->
+    <div id="tools" class="container-fluid p-3 text-center d-flex flex-column justify-content-center align-items-center">
+      <h3>Tools</h3>
+      <div id="other-tools" class="tools-container">
+            <img  class="img-tool" src="./images/logo-bootstrap.png"/>
+            <img  class="img-tool" src="./images/logo-css3.png"/>
+            <img  class="img-tool" src="./images/logo-html5.png"/>
+            <img  class="img-tool" src="./images/logo-react.png"/>
+            <img  class="img-tool" src="./images/logo-heroku.png"/>
+            <img class="img-tool" src="./images/logo-git.png"/>
+            <img class="img-tool" src="./images/logo-sublime-text-3.png"/>
+            <img class="img-tool" src="./images/logo-postman.png"/>
+            <img class="img-tool" src="./images/logo-gitlab-ci-cd.png"/>
+      </div>
+      
+    </div>
+    <!-- Tools Section End -->
+
+    <!-- Contact Section Start -->
+    <div id="contact" class="container-fluid d-flex justify-content-center">
+        <div class="contact mb-5 text-center">
+            <h1 class="mt-3">Contact Me @</h1>
+            <div>
+                <a href="https://www.facebook.com" target="blank"><img class="img-fluid rounded-circle img-contact" src="./images/fb.png"></a>
+                <a href="https://www.instagram.com" target="blank"><img class="img-fluid rounded-circle img-contact" src="./images/instagram.webp"></a>
+                <a href="https://www.gmail.com" target="blank"><img class="img-fluid rounded-circle img-contact" src="./images/gmail-icon-free-png.webp"></a>
+            </div>
+            <h3>or</h3>
+            <h3>message me here ↓</h3>
+            <form class="p-5">
+                <div class="form-group">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Contact Number">
+                </div>
+                <div>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Write your message here"></textarea>
+                </div>
+                <button type="button" class="btn btn-danger mt-3" data-toggle="modal" data-target="#modalDiv" >
+                    Send
+                </button>
+                <div class="modal text-dark" id="modalDiv" tabindex="-1" >
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                          <h5 class="modal-title">Thank you for contacting me!</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                          </div>
+                          <div class="modal-body">
+                          <p>Message Successfully Sent!</p>
+                          </div>
+                          <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </form>
+       </div>
+    </div>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section -->
+    <footer class="text-center bg-secondary p-3">
+        <span>© Abdul Naffi Bandrang</span>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Java Script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

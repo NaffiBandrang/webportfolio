@@ -1,0 +1,213 @@
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1, h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.btn {
+    border: 10px;
+    padding: 10px;
+}
+
+/* Navbar Section */
+.navbar-brand {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+}
+/* Landing Section */
+.hero-me {
+    display: flex;
+    align-items: center;
+
+}
+
+.project-title {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+#landing {
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0,0,0,0)), url(../images/portfolio.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed; 
+   height: 100vh;
+   color: rgb(207, 207, 194);
+}
+
+#hero-p{
+    font-size: 1.5rem;
+}
+
+#hero-name {
+    font-size: 7rem;
+}
+
+#hero-title {
+    font-size: 4rem;
+}
+
+#hero-bio {
+    font-size: 2rem;
+}
+
+/* Project Section */
+#project div {
+    align-items: center;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.c-image {
+    object-fit: contain;
+}
+
+.project {
+    width: 75%;
+}
+
+.project h5 {
+    font-weight: bold;
+}
+
+/* Tools Section */
+#tools {
+    width: 80%;
+}
+
+#tools > h3 {
+    font-size: 3rem;
+}
+
+
+
+
+
+/* Contact Section */
+.contact {
+
+    width: 50%;
+}
+
+.img-contact {
+    height: 40px;
+    width: 40px;
+    margin: 1rem;
+}
+
+#contact h1, h3 {
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 425px) { 
+    #landing {
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9),rgba(0,0,0,0.6) ,rgba(0,0,0,0)), url(../images/portfolio.jpg)
+     }
+
+    #hero-name {
+        font-size: 2.5rem;
+    }
+    #hero-bio {
+        font-size: 1rem;
+    }
+
+    #hero-title {
+        font-size: 1.5rem;
+    }
+    
+    #hero-p {
+        font-size: 0.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    .nav-item {
+        font-size: 1rem;
+    }
+
+    #project h1{
+        font-size: 2rem;
+    }
+
+    .project p {
+        font-size: 0.8rem;
+    }
+
+    .project h5 {
+        font-size: 1rem;
+    }
+
+    #tools h3 {
+        font-size: 2rem;
+    }
+
+
+    #contact h1,h3 {
+        font-size: 2rem;
+    }
+
+    .contact {
+        width: 100%;
+    }
+ }
+
+ @media only screen and (min-width: 425px) and (max-width: 1024px) { 
+    #landing {
+        height: 100%;
+    }
+    
+    #hero-name {
+        font-size: 3rem;
+    }
+    #hero-bio {
+        font-size: 1rem;
+    }
+
+    #hero-title {
+        font-size: 2rem;
+    }
+    
+    #hero-p {
+        font-size: 1rem;
+    }
+
+    .project p {
+        font-size: 1rem;
+    }
+
+    .project h5 {
+        font-size: 1.5rem;
+    }
+
+    #project h1{
+        font-size: 3rem;
+    }
+
+    .img-tool {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+    }
+ }
